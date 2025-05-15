@@ -24,7 +24,7 @@ body {
 
 header {
     background: var(--bg);
-    padding: 2em;
+    padding: 1.5rem 7%;
     position: sticky;
     border-bottom: 1px solid white;
     top: 0;
@@ -46,12 +46,12 @@ nav a:hover {
 
 nav {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
 nav img {
-    width: 80px;
+    width: 70px;
     border-radius: 50%;
 }
 
@@ -63,4 +63,25 @@ nav img {
 .icones {
     display: flex;
     gap: 1.5em;
+}
+
+.containerPizza {
+    background-image: url(Pizzaria-Hash-main/images/home.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 80vh;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.containerBemVindo {
+    
+}
+
+.containerBemVindo h1 {
+    font-size: 5em;
+    text-transform: uppercase;
 }
