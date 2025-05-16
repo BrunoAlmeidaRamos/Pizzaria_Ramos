@@ -114,3 +114,7 @@ nav img {
     border-radius: 20px;
     transition: 1s;
 } 
+
+button::before {
+    content: '🧠';
+}
