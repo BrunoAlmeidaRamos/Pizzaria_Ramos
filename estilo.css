@@ -22,6 +22,21 @@ body {
     color: white;
 }
 
+button {
+    width: 12em;
+    height: 2em;
+    background-color: var(--main-color);
+    color: white;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+button:hover {
+    font-size: 1.2em;
+    border-radius: 20px;
+    transition: 1s;
+} 
+
 header {
     background: var(--bg);
     padding: 1.3rem 7%;
@@ -54,6 +69,11 @@ nav {
 nav img {
     width: 70px;
     border-radius: 50%;
+    transition: 1s ease-in-out;
+}
+
+nav img:hover {
+   transform: rotate(360deg);
 }
 
 .navegacao ol {
@@ -83,14 +103,18 @@ nav img {
     height: 80vh;
     border-bottom: 1px solid white;
     display: flex;
-    justify-content: center;
     align-items: center;
-    padding: 0 2em;
     border-bottom: var(--border);
 }
 
+.containerBemVindo {
+   max-width: 60rem;
+   padding: 10em;
+}
+
 .containerBemVindo h1 {
-    font-size: 5em;
+    width: 50%;
+    font-size: 3em;
     text-transform: uppercase;
 }
 
@@ -98,19 +122,48 @@ nav img {
     font-size: 1.3em;
     line-height: 1.5em;
     padding-bottom: 1em;
+    font-weight: lighter;
 }
 
-.containerBemVindo button {
-    width: 12em;
-    height: 2em;
-    background-color: var(--main-color);
-    color: white;
-    border: 1px solid red;
-    cursor: pointer;
+.containerSobrenos {
+    padding: 2em 5em;
 }
 
-.containerBemVindo button:hover {
-    font-size: 1.2em;
-    border-radius: 20px;
-    transition: 1s;
-} 
+.containerSobrenos h1 {
+    text-align: center;
+    padding-bottom: 1em;
+    font-size: 2em;
+}
+
+.containerSobrenos span {
+    color: red;
+}
+
+.sobre{
+    display: flex;
+    align-items: center;
+    border: var(--border);
+    background: var(--bg-card);
+    border-radius: 50px;
+}
+
+.sobre img {
+    width: 35em;
+    border-radius: 50px;
+}
+
+.torna {
+   text-align: center;
+   padding: 0 10em;
+}
+
+.torna h2 {
+    font-size: 3em;
+    padding-bottom: 1.5em;
+    text-transform: uppercase;
+}
+
+.torna p {
+    padding-bottom: 2em;
+}
+
