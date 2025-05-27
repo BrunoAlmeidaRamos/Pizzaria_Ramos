@@ -35,7 +35,7 @@ button:hover {
     font-size: 1.2em;
     border-radius: 20px;
     transition: 1s;
-} 
+}
 
 header {
     background: var(--bg);
@@ -73,7 +73,7 @@ nav img {
 }
 
 nav img:hover {
-   transform: rotate(360deg);
+    transform: rotate(360deg);
 }
 
 .navegacao ol {
@@ -86,8 +86,8 @@ nav img:hover {
     gap: 1.5em;
 }
 
-.icones a{
-   color: white;
+.icones a {
+    color: white;
 }
 
 .icones a:hover {
@@ -108,8 +108,8 @@ nav img:hover {
 }
 
 .containerBemVindo {
-   max-width: 60rem;
-   padding: 10em;
+    max-width: 60rem;
+    padding: 10em;
 }
 
 .containerBemVindo h1 {
@@ -139,7 +139,7 @@ nav img:hover {
     color: red;
 }
 
-.sobre{
+.sobre {
     display: flex;
     align-items: center;
     border: var(--border);
@@ -153,8 +153,8 @@ nav img:hover {
 }
 
 .torna {
-   text-align: center;
-   padding: 0 10em;
+    text-align: center;
+    padding: 0 10em;
 }
 
 .torna h2 {
@@ -167,3 +167,101 @@ nav img:hover {
     padding-bottom: 2em;
 }
 
+.containerMenu {
+    padding: 1em 5em;
+}
+
+.containerMenu h1 {
+    text-align: center;
+    font-size: 2em;
+    text-transform: uppercase;
+    padding-bottom: 1em;
+}
+
+.containerMenu span {
+    color: var(--main-color);
+}
+
+.nossoMenu {
+    display: grid;
+    /* Organiza os elementos internos em um layout de grade */
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    /* Cria colunas flexíveis com largura mínima de 30rem e máxima proporcional */
+    gap: 1.5rem;
+    /* Define o espaçamento entre os itens da grade */
+}
+
+.conteudo {
+    border: var(--border);
+    text-align: center;
+    width: 100%;
+    height: 25em;
+    background-color: var(--bg-card);
+    padding: 5em;
+    line-height: 2.2em;
+}
+
+.conteudo p {
+    font-size: 1.5em;
+}
+
+
+.conteudo:hover {
+    background-color: white;
+    color: black;
+    transition: 1s;
+}
+
+.conteudo img {
+    border-radius: 100%;
+    height: 10em;
+}
+
+.containerCombo {
+    padding: 1em 5em;
+}
+
+.containerCombo h1 {
+    text-transform: uppercase;
+    font-size: 2em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.containerCombo span {
+    color: var(--main-color);
+}
+
+.promocoes {
+    display: grid;
+    /* Organiza os elementos internos em um layout de grade */
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    /* Cria colunas flexíveis com largura mínima de 30rem e máxima proporcional */
+    gap: 1.5rem;
+    /* Define o espaçamento entre os itens da grade */
+}
+
+
+.containerCombo .conteudo {
+    height: 30em;
+}
+
+.containerCombo .conteudo img {
+    height: 15em;
+}
+
+.conteudo ol {
+    display: flex;
+    justify-content: center;
+
+}
+
+.conteudo a i {
+    color: white;
+    border: var(--border);
+    text-align: center;
+    font-size: 1.5em;
+    width: 2em;
+    height: 1.5em;
+    padding: 1em;
+}
