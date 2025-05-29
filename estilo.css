@@ -97,7 +97,7 @@ nav img:hover {
 
 
 .containerPizza {
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.589) 25%), url(Pizzaria-Hash-main/images/home.jpg);
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.507)), url(Pizzaria-Hash-main/images/home.jpg);
     background-position: center center;
     background-size: cover;
     height: 80vh;
@@ -206,7 +206,7 @@ nav img:hover {
 }
 
 
-.conteudo:hover {
+.nossoMenu .conteudo:hover {
     background-color: white;
     color: black;
     transition: 1s;
@@ -256,12 +256,58 @@ nav img:hover {
 
 }
 
-.conteudo a i {
+.conteudo .icons i{
     color: white;
     border: var(--border);
-    text-align: center;
     font-size: 1.5em;
     width: 2em;
     height: 1.5em;
-    padding: 1em;
 }
+
+.conteudo .icons ol{
+    padding-bottom: 1em;
+    gap: 1em;
+}
+
+.conteudo a i:hover {
+    background-color: var(--main-color);
+    transition: 0.8s;
+}
+
+.containerClientes {
+    padding: 1em 5em;
+    height: auto;
+}
+
+.containerClientes h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+    padding-bottom: 1em;
+}
+
+.containerClientes h2 span {
+    color: var(--main-color);
+}
+
+.comentarios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    gap: 1em;
+}
+
+.comentarios .conteudo {
+    height: 32em;
+}
+
+
+.comentarios .conteudo p {
+    font-size: 1em;
+    line-height: 1.3;
+    padding-bottom: 1em;
+}
+
+.comentarios .stars {
+    color: var(--main-color);
+}
+
