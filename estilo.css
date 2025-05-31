@@ -311,3 +311,41 @@ nav img:hover {
     color: var(--main-color);
 }
 
+.containerRodape {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+.hash h4 {
+    font-size: 1.4em;
+    padding-bottom: 0.3em;
+}
+
+.hash span {
+    color: var(--main-color);
+}
+
+.hash a {
+    color: gray;
+    line-height: 1.7em;
+}
+
+.hash a:hover {
+    color: var(--main-color);
+    transition: 0.6s;
+}
+
+.hash i {
+    font-size: 1.7em;
+}
+
+.linha {
+    border: var(--border);
+}
+
+footer p {
+    text-align: center;
+    padding: 1em;
+}
