@@ -350,6 +350,27 @@ footer p {
     padding: 1em;
 }
 
+.botao-whats {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 2em;
+    border-radius: 50%;
+    width: 2.7rem;
+    height: 2.7rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+    text-decoration: none;
+}
+
+.botao-whats:hover {
+    background-color: rgba(0, 128, 0, 0.658);
+}
 
 @media (max-width: 991px) {
     html {
