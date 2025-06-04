@@ -84,6 +84,7 @@ nav img:hover {
 .icones {
     display: flex;
     gap: 1.5em;
+    display: none;
 }
 
 .icones a {
@@ -205,6 +206,9 @@ nav img:hover {
     font-size: 1.5em;
 }
 
+.conteudo h3 {
+    font-size: 1em;
+}
 
 .nossoMenu .conteudo:hover {
     background-color: white;
@@ -254,6 +258,10 @@ nav img:hover {
     display: flex;
     justify-content: center;
 
+}
+
+.icons i {
+    padding-top: 0.2em;
 }
 
 .conteudo .icons i{
@@ -370,6 +378,7 @@ footer p {
 
 .botao-whats:hover {
     background-color: rgba(0, 128, 0, 0.658);
+    transition: 0.8s;
 }
 
 @media (max-width: 991px) {
@@ -395,9 +404,8 @@ footer p {
     }
 
     .sobre img {
-        width: 24em;
+        width: 25em;
         border-radius: 0;
-       
     }
 
     .torna {
@@ -416,4 +424,11 @@ footer p {
         padding: 1em;
     }
 
+    .navegacao {
+        display: none;
+    }
+
+    .icones {
+        display: flex;
+    }
 }
